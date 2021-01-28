@@ -25,9 +25,8 @@
 <a name="Sobre"></a>
 ## Sobre :information_source:
 
-Feito em 2019 como projeto da disciplina de Estrutura de Dados, esse projeto tem por objetivo de criar um framework capaz de carregar
-dados de um arquivo csv gerar dados estatísticos sobre a base de dados e realizar buscas nessa base de dados de forma a detectar sinônimos
-do que for pesquisado.
+Feito em 2019 como projeto da disciplina de Estruturas de Dados, esse projeto tem por objetivo de criar um framework capaz de carregar
+dados de um arquivo csv, nessa base de dados gerar dados estatísticos e realizar buscas de forma a detectar sinônimos do que for pesquisado.
 
 <a name="carga"></a>
 ### Carga da Base de dados 
