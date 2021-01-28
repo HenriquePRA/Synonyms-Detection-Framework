@@ -11,6 +11,7 @@
         <li><a href="#carga">Processo de Carga</a></li>
         <li><a href="#estatisticas">Geração de dados Estatísticos</a></li>
         <li><a href="#framework">Framework de Busca</a></li>
+        <li><a href="#detalhamento">Função Sobre (Detalhamento)</a></li>
       </ul>
     </li>
     <li>
@@ -24,9 +25,8 @@
 <a name="Sobre"></a>
 ## Sobre :information_source:
 
-Feito em 2019 como projeto da disciplina de Estrutura de Dados, esse projeto tem por objetivo de criar um framework capaz de carregar
-dados de um arquivo csv gerar dados estatísticos sobre a base de dados e realizar buscas nessa base de dados de forma a detectar sinônimos
-do que for pesquisado.
+Feito em 2019 como projeto da disciplina de Estruturas de Dados, esse projeto tem por objetivo de criar um framework capaz de carregar
+dados de um arquivo csv, nessa base de dados gerar dados estatísticos e realizar buscas de forma a detectar sinônimos do que for pesquisado.
 
 <a name="carga"></a>
 ### Carga da Base de dados 
@@ -41,7 +41,7 @@ A geração de dados estatísticos depende apenas da função estatisitcas() que
 que caso não esteja carregada retornará uma mensagem de erro. caso essa lista exista a função retorna ao usuário o número de currículos, número
 de palavas, porcentagem de Graduações, Especializações, Mestrados, Doutorados e Pós Doutorados.
 
-![]()
+![](https://github.com/HenriquePRA/Synonyms-Detection-Framework/blob/screenshots/screenshots/estatisticas.JPG)
 
 <a name="framework"></a>
 ### Framework de Busca
@@ -62,7 +62,13 @@ distância de edição damerau levenshtein é comparado o que o usuário digitou
 é feita ignorando caracteres com acentos e com todas as letras de ambas as strings em caixa alta, e por fim caso o resultado da comparação 
 apresentar uma similaridade aceitável entre ambas as strings o currículo do docente é inserido ao final de uma lista que é retornada ao usuário.
 
-![]()
+![](https://raw.githubusercontent.com/HenriquePRA/Synonyms-Detection-Framework/screenshots/screenshots/busca.JPG)
+
+<a name="detalhamento"></a>
+### Sobre (Detalhamento)
+Exibe dados detalhados da lógica sob cada funcionalidade do projeto.
+
+![](https://github.com/HenriquePRA/Synonyms-Detection-Framework/blob/screenshots/screenshots/sobre.JPG)
 
 <a name="Requisitos"></a>
 ## Requisitos do Projeto
